@@ -1,6 +1,7 @@
 // 1- Using recursion Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers.
 
 function greatestCommon (num1,num2,div){
+    
     if (num1%div===0 && num2%div===0){
         return div;
     }

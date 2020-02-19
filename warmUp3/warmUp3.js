@@ -31,7 +31,7 @@ function isEven(x,y) {
 // ex sum(1,5) => 15
 
 function sum(x,y){
-    var i=0;
+    var i=x;
     var s=0;
     while (i<y+1){
         s+=i;
