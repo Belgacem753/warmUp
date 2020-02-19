@@ -2,6 +2,17 @@
 //followed by a number starting from zero(solve it using while loop).
 // example:    reverseStr('hello'); "o1l2l3e4h"
 
+function reverseStr(string) {
+    var str = "";
+    var i = 1;
+
+    while (i <= string.length + 1) {
+        str = str + string.slice(string.length - 1) + i;
+        string = string.slice(0, string.length - 1);
+        i++;
+    }
+    return str;
+}
 
 function reverseStr (string) {
     var acc='';

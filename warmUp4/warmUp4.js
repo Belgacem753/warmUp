@@ -14,6 +14,8 @@ function myTrueFun() {
 		return false;
 
 	}
+	return false;
+
 // 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not.
 
 function prime(number){

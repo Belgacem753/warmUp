@@ -7,6 +7,10 @@ var males=['amine', 'afif', 'firass', 'ali', 'belgacem', 'houssem', 'taha'];
 var instructors=['walid', 'cassels', 'matt', 'seif', 'hadhemy', 'safa'];
 
 
+var arrayFemales = ['Siwar', 'Nouha'];
+var arrayMales = ['Houss1', 'Houss2', 'Omar', 'Taha', '..........'];
+var arrayInstructors = ['Matt', 'Cassels', 'Walid'];
+
 // 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
 function middle(array){
     if(array.length%2===0){
