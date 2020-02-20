@@ -1,0 +1,17 @@
+body {
+    background-color: blue;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#first {
+    font-family: Georgia;  
+
+}
+
+#second {
+    font-family: fantasy;
+}

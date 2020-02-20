@@ -1,8 +1,13 @@
 // 1-Choose the correct comparison operator to display "true", when: 5 is less than 7.
+<<<<<<< HEAD
 /************** I used the comparison operator less than ***************/ 
 if (5 < 7){
      true;
 }
+=======
+// The correct comparison operator to display "true", when: 5 is less than 7 is: <:
+
+>>>>>>> b8a430e8ea2c4d0e1e78f81ef8a28a628ba965c6
 //2- Write a function named helloWorld that:
 //takes 1 argument, a language code (e.g. "fr", "es", "en")
 //returns "Hello, World" for the given language, for atleast 3 languages. It should default to returning English.
@@ -10,6 +15,7 @@ if (5 < 7){
 //    helloWorld('es') ==> 'Hola, Mundo'
 //    helloWorld('') ==> 'Hello, World'      
 
+<<<<<<< HEAD
 /************    I used the if and else statements to check the input and i didn't check the input 'en' because the function
  will return 'Hello world' by default **************/ 
 
@@ -42,3 +48,7 @@ function reverseArray (array){
 }
 
 reverseArray([1,2,3]);
+=======
+//3- write a function to Reverse an array without use array.reverse() method:
+// ex: reverseArray([1,2,3]) ==> [3,2,1]
+>>>>>>> b8a430e8ea2c4d0e1e78f81ef8a28a628ba965c6
