@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>warmUp-15</title>
+        <link rel="stylesheet" href="styles.css">
+        <script> src="warmUp-15.js"</script>
+        <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+    </head>
+    <body>
+        <input class="am" id="textToDisplay" type="text" ><br>
+        <button class="is" value="Add text" onClick="showText()"> click me!</button>
+        <ul>
+            
+        </ul>
+        <script>
+        
+            function showText () {
+                var text = $("#textToDisplay").val();
+                if (text !== ''){
+                    $("ul").append("<li></li>")
+                    $("li").text(text);  
+                }
+            }
+        </script>
+    </body>
+</html>
